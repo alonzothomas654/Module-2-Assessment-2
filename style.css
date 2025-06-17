@@ -1,0 +1,364 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*=================== HEADER ===================*/
+
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    height: 80px;
+    width: 100%;
+    background-image: url('Images/wood-bg.png');
+    background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*=================== TOP-TABS ===================*/
+
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    height: 40px;
+    width: 100%;
+    background-color: #572800;
+}
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*=================== BOTTOM-TABS ===================*/
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: #572800;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*=================== MAIN ===================*/
+
+#main{
+    margin-top: 119px;
+    background: url(Images/mall-blur-2.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+h4{
+    text-align: center;
+    font-weight: 700;
+    color: #572800;
+    font-size: 35px;
+    padding-top: 5px;
+}
+
+/*=================== MAIN-HOME ===================*/
+
+#main-home{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    background: url(Images/mall-pictures.webp);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#content-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+a.home-info-box{
+    text-decoration: none;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    width: 200px;
+    height: 300px;
+    margin: 30px 10px;
+}
+
+.home-info-box img{
+    height: 200px;
+    width: 95%;
+    object-fit: contain;
+}
+
+.home-info-box h2{
+    width: 100%;
+    color: white;
+    background-color: chocolate;
+}
+
+h1{
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    background-color: #bb5b01;
+    border-style: dashed;
+    border-color: #572800;
+    border-width: 5px;
+}
+
+
+/*=================== INFO-BOX ===================*/
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3{
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    width: 90%;
+    color: brown;
+}
+
+.info-box p{
+    padding: 0;
+    width: 90;
+    margin: 0;
+    color: #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/*=================== INFO-BOX-FULL ===================*/
+
+#info-box-full{
+    background: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#info-box-full img{
+    width: 100%;
+    align-items: center;
+}
+
+#info-box-full p{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#info-box-full ul{
+    list-style-position: inside;
+    text-align: center;
+    width: 100%;
+}
+
+#info-box-full h5{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 1rem;
+    margin: 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+#info-box-full h6{
+    text-align: center;
+    font-size: 25px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*=================== WRAPPER ===================*/
+
+#logo{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.wrapper{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.intro{
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.profile{
+    padding: 0;
+    margin: 0;
+}
+
+/*=================== CONTAINER ===================*/
+
+.container{
+    padding: 1rem;
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 55rem;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+
+/*=================== FORM ===================*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    width: 100%;
+    display: block;
+    background-color: #572800;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+.button:hover{
+    color: black;
+}
+
+/*=================== MAP ===================*/
+
+#map{
+    height: 100vh;
+    object-position: center;
+}
+
+/*=================== ABOUT ===================*/
+
+#mallpic{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
